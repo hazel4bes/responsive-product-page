@@ -98,9 +98,10 @@ border-radius: 5px;
   margin-bottom: 0;
 }
 
-#valentine >h4,
+#valentine >h6,
 #valentine >h5 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #cart {
@@ -132,22 +133,28 @@ color: #fff;
 
 .dough h3 {
   text-align: center;
+  padding: 0;
 }
 
 .reviews {
   background-color: black;
   color: #fff;
-  padding: 1em;
+  padding: 2em;
   padding-bottom: 2em;
 }
 
 .reviews h3 {
   text-align: center;
+  padding: 0;
 }
 
 .try-with {
   padding: 1em;
   margin-bottom: 2em;
+}
+
+.try-with h3 {
+  text-align: center;
 }
 
 .try-grid {
@@ -261,4 +268,8 @@ h3, h4, h5, h6 {
 p {
     margin-top: .5em;
     font-size: var(--font-size-base)
-  }
+}
+
+small {
+  font-size: var(--font-size-sm);
+}
