@@ -253,23 +253,22 @@ h4 {
 }
 
 h5 {
-  font-size: var(--font-size-base;
+  font-size: var(--font-size-base);
 }
 
 h6 {
   font-size: var(--font-size-sm);
 }
 
-h3, h4, h5, h6 {
-  font-weight: bold;
-  line-height: 1;
-}
-
 p {
-    margin-top: .5em;
     font-size: var(--font-size-base)
 }
 
 small {
   font-size: var(--font-size-sm);
+}
+
+h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1;
 }
